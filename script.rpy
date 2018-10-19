@@ -2,6 +2,7 @@
 
 define i = Character("Ibuki")
 define sm = Character("Smol Man") #scoots before introduction to ibuki
+define smK = Character("Sleeping Man") #kosena before introduction to Ibuki
 define sc = Character("Scoots")
 define dm = Character("Daishomaru")
 define bi = Character("Bike")
@@ -11,6 +12,7 @@ define ap = Character("Alpaca")
 define un = Character("LT Unknown")
 define wg = Character("Wororg")
 define sa = Character("Saxon")
+define ks = Character("Kosena")
 
 # The hell begins here.
 
