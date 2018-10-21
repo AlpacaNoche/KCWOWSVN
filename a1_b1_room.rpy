@@ -36,10 +36,23 @@ ks "Here you go. Room forty-two, it's on the second floor, A wing."
 i "Thank you, make sure to grab some more sleep tonight."
 "Kosena blushes in embarassment before returning to a straight face."
 ks "Alright, alright. Ring me up if you need anything sorted out related to your room."
-
+ 
 "I quickly go up the flight of stairs to my right."
 show dormHallway
 "Hm, wing A, right? Should be right ther-"
 #insert slamming noise
 smi "AH!"
+scene blank
+scene alpacaTrippedOver
+"It appears that I have slammed into a small woman." #this line is like half of a joke
+smi "I am so sorry, that was my fault.."
+"She scrambles to grab the papers she dropped everywhere."
+
+menu: #Alpaca choice #1
+    "What should I do?"
+    "Help her out.":
+        jump a1_b1_room_alpaca
+    "Keep moving.":
+        jump a1_b1_room_continued
+
 return
