@@ -9,6 +9,7 @@ scene warehouse1
 show unknown
 with easeinbottom
 
-un "Attempt 15: failed."
+un "R&D Notes. Attempt 15: failed. It doesn't seem to be the fuzes."
+un "Returning to launch device. Powder bags are a no go."
 
 return
