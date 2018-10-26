@@ -5,7 +5,7 @@ label a1_b1_room:
 "Wait, where exactly is the dormitories?"
 
 "I turn around and yell over to the Admiral."
-i "HEEEY! SCOOOTS! DO YOU KNOW WHERE THE WAY TO THE DORMS IS?"
+i "{b}HEEEY! SCOOOTS! DO YOU KNOW WHERE THE WAY TO THE DORMS IS?{/b}"
 "He quickly runs over to me, and points down the hallway."
 s "First left. Take the second right and the exit should be down the hallway. Building is first on the left."
 "Scoots then turns right back around and dashes back into his office. I yell a 'thank you' back to him and continue on my way." #bit mixed on this line
@@ -22,7 +22,7 @@ scene dormfrontdesk
 "With second glance throughout the room, I actually spot the clerk.."#I'm debating on keeping this part or not, with Kosena sleeping. Might not match his character.
 show KosenaSleepy
 "...except he's passed out on the desk."
-smk "..mm...paint thinnerrr...."
+smk "{i}..mm...paint thinnerrr....{/i}"
 "What?"
 i "Uh, hello?"
 show KosenaSurprised
@@ -36,7 +36,7 @@ ks "Here you go. Room forty-two, it's on the second floor, A wing."
 i "Thank you, make sure to grab some more sleep tonight."
 "Kosena blushes in embarassment before returning to a straight face."
 ks "Alright, alright. Ring me up if you need anything sorted out related to your room."
- 
+
 "I quickly go up the flight of stairs to my right."
 show dormHallway
 "Hm, wing A, right? Should be right ther-"
@@ -45,14 +45,22 @@ smi "AH!"
 scene blank
 scene alpacaTrippedOver
 "It appears that I have slammed into a small woman." #this line is like half of a joke
-smi "I am so sorry, that was my fault.."
+smi "{i}I am so sorry, that was my fault..{/i}"
 "She scrambles to grab the papers she dropped everywhere."
 
 menu: #Alpaca choice #1
     "What should I do?"
     "Help her out.":
-        jump a1_b1_room_alpaca
+        $ alpaca_status = "yes"
+        jump a1_b1_alpaca
     "Keep moving.":
-        jump a1_b1_room_continued
-
+        "She should've been watching where she was going."
+        scene dormHallway
+"I keep moving along, ignoring her."
+label a1_b1_continued:
+"I arrive to my room, after a little bit of walking."
+scene door42
+"Moving in to open the door, I suddenly hear some rather loud discussion from within."
+"Two voices, both girls. It must Suzuya and Kumano, the people Scoots mentioned."
+"I gently open the door."
 return
