@@ -57,10 +57,13 @@ menu: #Alpaca choice #1
         "She should've been watching where she was going."
         scene dormHallway
 "I keep moving along, ignoring her."
+
+
 label a1_b1_continued:
 "I arrive to my room, after a little bit of walking."
 scene door42
 "Moving in to open the door, I suddenly hear some rather loud discussion from within."
-"Two voices, both girls. It must Suzuya and Kumano, the people Scoots mentioned."
+"Two voices, both girls. It must be Suzuya and Kumano, the people Scoots mentioned."
 "I gently open the door."
+scene dormDoorPeek
 return

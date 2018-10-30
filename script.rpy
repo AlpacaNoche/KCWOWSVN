@@ -3,17 +3,25 @@
 define i = Character("Ibuki")
 define sm = Character("Smol Man") #scoots before introduction to ibuki
 define smK = Character("Sleeping Man") #kosena before introduction to Ibuki
-define smi = Character("Small Girl and Ibuki") #used for when Ibuki and Alpaca slam into each other.
+
 define sc = Character("Scoots")
 define dm = Character("Daishomaru")
 define bi = Character("Bike")
 define mb = Character("Maya_Bae")
-define ab = Character("Aobaka")
-define ap = Character("Alpaca")
 define un = Character("LT Unknown")
+
+define ks = Character("Kosena")
+define ap = Character("Alpaca")
+define smi = Character("Small Girl and Ibuki") #used for when Ibuki and Alpaca slam into each other.
+define sg = Character("Small Girl") #used for Alpaca prior to introduction
+define ab = Character("Aobaka")
+define bhg = Character("Blue Haired Girl")#used for Suzuya prior to introduction
+define ku = Character("Kumano")
+define sz = Character("Suzuya")
+
 define wg = Character("Wororg")
 define sa = Character("Saxon")
-define ks = Character("Kosena")
+define as = Character("Astraph")
 
 # The hell begins here.
 
