@@ -4,6 +4,7 @@ define i = Character("Ibuki")
 define sm = Character("Smol Man") #scoots before introduction to ibuki
 define smK = Character("Sleeping Man") #kosena before introduction to Ibuki
 define smi = Character("Small Girl and Ibuki") #used for when Ibuki and Alpaca slam into each other.
+define sg = Character("Small Girl") #used for Alpaca prior to introduction
 define sc = Character("Scoots")
 define dm = Character("Daishomaru")
 define bi = Character("Bike")
