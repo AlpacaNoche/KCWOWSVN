@@ -3,7 +3,7 @@ label a1_b3_shipyards:
 
 scene shipyards
 "There's several people here, probably all from muster."
-"As I see them walk into one warehouse, a loud explosion comes from another"
+"As I see them walk into one warehouse, deafening explosions come from another."
 
 scene warehouse1
 show unknown
@@ -18,7 +18,11 @@ menu: #choice 1
         "I turn away to leave, but accidentally bump into someone."
     "I probably should help put out the fire he just made.":
         i: "Need help in there?"
-        "Just as I move in to grab the fire extinguisher, someone bumps into me."
+        un "Yes, please."
+        "I grab a fire extinguisher and help him snuff out the fires."
+
+show Maya_Bae
+with easeinbottom
 
 mb "What's up, nerd? Start another fire?"
 un "...maybe. "
@@ -30,6 +34,6 @@ mb "Oi!"
 un "So, new girl. What's your name?"
 i "I'm Ibuki. I'm a new shipgirl who got stationed here."
 un "Welcome to hell. I'm Unknown, the R&D and MP guy."
-un "That monkey over there is Maya_Bae, but we just call him Mayo."
+un "That AA obsessed monkey over there is Maya_Bae, but we just call him Mayo."
 un "He's der fuhrer around these parts."
 return
