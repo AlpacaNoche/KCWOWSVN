@@ -1,40 +1,110 @@
 label a1_b3_shipyards:
-"I should check out the shipyards."
+    "I should check out the shipyards."
 
-scene shipyards
-"There's several people here, probably all from muster."
-"As I see them walk into one warehouse, deafening explosions come from another."
+    scene shipyards
+    "There's several people here, probably all from muster."
+    "As I see them walk into one warehouse, deafening explosions come from another."
 
-scene warehouse1
-show unknown
-with easeinbottom
+    scene warehouse1
+    show unknown
+    with easeinbottom
 
-"The man speaks into a recorder."
-un "R&D Notes. Attempt 15: failed. It doesn't seem to be the fuzes.":
-un "Returning to launch device. Powder bags are a no go."
+    /"The man speaks into a recorder."
 
-menu: #choice 1
-    "I probably shouldn't be here, it's dangerous!":
-        i: "I should go."
-        "I turn away to leave, but accidentally bump into someone."
-    "I probably should help put out the fire he just made.":
-        i: "Need help in there?"
-        un "Yes, please."
-        "I grab a fire extinguisher and help him snuff out the fires."
+    un "R&D Notes. Attempt 15: failed. It doesn't seem to be the fuzes."
 
-show Maya_Bae
-with easeinbottom
+    un "Returning to launch device. Powder bags are a no go."
 
-mb: "What's up nerd, start another fire?"
-un "...maybe. "
-mb "Who's the new girl?"
-un "I don't know. I though it was you cheating on Maya again."
-mb "Oi!"
-"Maya's apparent boyfriend picks up a hammer from a nearby table and raises it."
-"His face also morphs into a frog's. The explosives guy doesn't seem to care."
-un "So, new girl. What's your name?"
-i "I'm Ibuki. I'm a new shipgirl who got stationed here."
-un "Welcome to hell. I'm Unknown, the R&D and MP guy."
-un "That AA obsessed monkey over there is Maya_Bae, but we just call him Mayo."
-un "He's der fuhrer around these parts."
-return
+    menu: #choice 1
+        "I probably shouldn't be here, it's dangerous!":
+            "i" "I should go."
+
+            "I turn away to leave, but accidentally bump into someone."
+
+        "I probably should help put out the fire he just made.": #I need to look at documentation again for points.
+            "i" "Need help in there?"
+
+            "un" "Yes, please."
+
+            "The man looks too nonchilant for starting a massive fire."
+
+            "I grab a fire extinguisher and help him snuff out said fires."
+
+    show Maya_Bae
+    with easeinbottom
+
+    mb "What's up nerd, start another fire?"
+
+    un "...maybe. "
+
+    mb "Who's the new girl?"
+
+    un "I don't know. I though it was you cheating on Maya again."
+
+    mb "Oi!"
+
+    "Maya's apparent boyfriend picks up a hammer from a nearby table and raises it."
+
+    "His face also morphs into a frog's. The explosives guy doesn't seem to care." #Insert badly photoshopped poggers sprite here?
+
+    un "So, new girl. What's your name?"
+
+    i "I'm Ibuki. I'm a new shipgirl who got stationed here."
+
+    un "Welcome to hell. I'm Unknown, the R&D guy and MP."
+
+    un "That AA obsessed monkey over there is Maya_Bae, but we just call him Mayo."
+
+    un "He's der fuhrer around these parts."
+
+    mb "hit ur face"
+
+    un "As you can see, he's also {i}super witty{/i}."
+
+    un "So, what can I do you for? Need some rigging or something?"
+
+    i "Oh, no, I'm just finding my way around the base."
+
+    un "Well, you picked a good time to come by. There's gonna be some exercises soon. It'll make for a good show."
+
+    mb "So how's the 25mm cannon for the wifey going?"
+
+    un "Poorly. Shooting more literal crap in the sky won't shoot down more planes."
+
+    mb "Your guns are poo poo."
+
+    un "I'm just making them according to spec, plus some. There's no improving on those."
+
+    mb "ur face"
+
+    un "That's something a middle schooler would say."
+
+    "Mayo opens his mouth, but a loud bell rings, and a voice over the loudspeaker announces the start of live fire exercises."
+
+    scene ocean_exercises
+    /"Another loud explosion rings in the distance, as exercises begin. Six fellow shipgirls are out there."
+
+    "I'm told their names are Kirishima, Suzuya, Kumano, Souryuu, Akizuki, and Shiranui. They seem very well equipped."
+
+    "Kirishima has a strange gun on her turret. It's covered in a yellow and black wrap. I'm instantly nervous as that could only mean one thing."
+
+    "Almost as if reading my thoughts, Unknown speaks up."
+
+    un "Like the new gun? I made that for her. Kirishima's pretty damn good at marksmanship, so I wanted to see if she could use the extra firepower."
+
+    un "It's an autoloading 14 inch/50 caliber triple battery."
+
+    i "Isn't that American technology?"
+
+    un "Do I look Japanese to you?"
+
+    i "Where'd you get the blueprints from?"
+
+    un "I gotta keep some secrets."
+
+    "Unknown shrugs with a suspicious smirk. I don't think I'm finding out any time soon."
+
+    "Kirishima moves in position to fire. I dive behind the nearest form of cover, a tree."
+
+    "Surprisingly, the gun doesn't explode on itself and actually puts out several shots precisely on target."
+    return
