@@ -120,13 +120,13 @@ label a1_b3_shipyards:
 
     un "I need feedback, since I'm the armorer here."
 
-    menu: #choice 2
+    menu: #choice 2 #plus Unknown points
         "I think the surface warfare was great. Especially Kirishima's guns." #plus Unknown points
             un "Yeah, it took a long time getting that right. Minaturization is a pain in the ass with the budget we have."
 
             un "But it definitely was worth it. Now, time to go get feedback from Kirishima herself."
 
-        "I think the AA was the coolest part."
+        "I think the AA was the coolest part." #plus Mayo point
             mb "If you think that was good, my wifey's a goddess at AA!"
 
             un "Where the hell did you come from?"
