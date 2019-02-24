@@ -17,14 +17,14 @@ label a1_b3_shipyards:
 
     menu: #choice 1
         "I probably shouldn't be here, it's dangerous!":
-            "i" "I should go."
+            i "I should go."
 
             "I turn away to leave, but accidentally bump into someone."
 
         "I probably should help put out the fire he just made.": #I need to look at documentation again for points.
-            "i" "Need help in there?"
+            i "Need help in there?"
 
-            "un" "Yes, please."
+            un "Yes, please."
 
             "The man looks too nonchilant for starting a massive fire."
 
@@ -107,4 +107,31 @@ label a1_b3_shipyards:
     "Kirishima moves in position to fire. I dive behind the nearest form of cover, a tree."
 
     "Surprisingly, the gun doesn't explode on itself and actually puts out several shots precisely on target."
+
+    "Suddenly, the fleet shifts into a diamond formation, and everyone looks skyward."
+
+    "Tracers and a curtain of flak fill the sky as training drones are shot down. Akizuki in particular looks like she's doing the bulk of the work."
+
+    un "The eight minutes of death. They not only would've survived a nightmarish situation, but actually beat it back. Not bad."
+
+    i "Eight minutes of death?"
+
+    un "Our original benchmarks for this exercise wiped out everyone at eight minutes, give or take. But this fleet managed to run through it. So, what looked the best to you?"
+
+    un "I need feedback, since I'm the armorer here."
+
+    menu: #choice 2
+        "I think the surface warfare was great. Especially Kirishima's guns." #plus Unknown points
+            un "Yeah, it took a long time getting that right. Minaturization is a pain in the ass with the budget we have."
+
+            un "But it definitely was worth it. Now, time to go get feedback from Kirishima herself."
+
+        "I think the AA was the coolest part."
+            mb "If you think that was good, my wifey's a goddess at AA!"
+
+            un "Where the hell did you come from?"
+
+            mb "Dongcan."
+
+            un "The hell does that even mean?"
     return
