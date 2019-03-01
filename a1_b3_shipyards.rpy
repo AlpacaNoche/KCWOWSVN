@@ -120,11 +120,13 @@ label a1_b3_shipyards:
 
     un "I need feedback, since I'm the armorer here."
 
-    menu: #choice 2 #plus Unknown points
-        "I think the surface warfare was great. Especially Kirishima's guns." #plus Unknown points
+    menu: #choice 2
+        "I think the surface warfare part was great. Especially Kirishima's guns." #plus Unknown points
             un "Yeah, it took a long time getting that right. Minaturization is a pain in the ass with the budget we have."
 
-            un "But it definitely was worth it. Now, time to go get feedback from Kirishima herself."
+            un "But it definitely was worth it. Now, time to go get feedback from Kirishima herself. See ya 'round, new girl.'"
+
+            "Unknown excuses himself and jogs towards the docks."
 
         "I think the AA was the coolest part." #plus Mayo point
             mb "If you think that was good, my wifey's a goddess at AA!"
@@ -133,5 +135,11 @@ label a1_b3_shipyards:
 
             mb "Dongcan."
 
-            un "The hell does that even mean?"
+            un "The hell does that even mean? Well, I'm gonna go get some feedback on the guns from Kirishima before Mayo's IQ rubs off on me."
+
+            mb "Oi!"
+
+            "Unknown sprints off as Mayo, still holding the hammer from the warehouse chases after him."
+
+    "I check my watch, and it's getting late. Who knew high explosives could take a few hours? I head back to my quarters."
     return
