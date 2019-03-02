@@ -113,7 +113,6 @@ label a1_b3_shipyards:
     "Tracers and a curtain of flak fill the sky as training drones are shot down. Akizuki in particular looks like she's doing the bulk of the work."
 
     scene ocean_exercises_sunset
-
     un "The eight minutes of death. They not only would've survived a nightmarish situation, but actually beat it back. Not bad."
 
     i "Eight minutes of death?"
