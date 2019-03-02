@@ -141,7 +141,7 @@ label a1_b3_shipyards:
 
             mb "Oi!"
 
-            "Unknown sprints off as Mayo, still holding the hammer from the warehouse chases after him."
+            "Unknown sprints off as Mayo, still holding the hammer from the warehouse, chases after him. Mayo struggles to keep up with him."
 
     "I check my watch, and it's getting late. Who knew high explosives could take a few hours? I head back to my quarters."
     return
