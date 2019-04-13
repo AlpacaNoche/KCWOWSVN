@@ -14,3 +14,6 @@ scene waterside
 "But, out of the corner of my eye, I spot something peculiar."
 "Is.. is that a sofa? No, a couch."
 return
+
+#!!ACHTUNG!!
+#This is a deprecated file only kept for planning reasons. Will be removed soon^tm
