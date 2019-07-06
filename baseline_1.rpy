@@ -8,9 +8,9 @@ scene dorm door
 "I gently open the door."
 
 scene crudiv7room
-show suzuya
+show suzuya at right
 with easeinbottom
-show kumano
+show kumano at left
 with easeinbottom
 
 "There are two girls, both sitting at a table, frozen mid-conversation to look at me."
@@ -26,28 +26,28 @@ bhg "You're in the right place then! I'm Suzuya!"
 "It feels almost uncomfortable. I'm not used to these gestures."
 "The brown haired girl gets up from the table and walks up to greet me."
 brg "And I'm Kumano. Welcome to the Wagyu Naval Base."
-i "I...Thank you both."
+i "I... thank you both."
 
 ku "So, how are you liking the base so far?"
 i "It's... alright. I'm sure everyone here is nice, though."
 sz "Sounds good! I bet you'll find this place lovely!"
 "I look around the room. There's four other doors, all with their own names. I wonder who they belong to?"
 i "Are there more people in this cruiser division?"
-sz "Yep! Mogami and Mikuma are out right now."
+sz "Yep! Mogami and Mikuma are out right now, though."
 ku "They should be training with their squadron at the moment. I think they'll be back soon."
 i "I see."
 
 ku "Have you met any of our admirals yet?"
 "..Wait...there's more than just Scoots?"
 i "I've only met [scPrefix] Scoots, though that one woman I ran into earlier didn't seem like a shipgirl."
-i "Oh, and I've heard what who I've been told is Daisho." 
+i "Oh, and I've heard what who I've been told is Daisho."
 ##Wow, I'm offended.##
 ku "There are plenty more, maybe you'll find one you like. Who have you been assigned to?"
 i "I actually haven't been assigned to any unit yet. The [scPrefix] said that the system wasn't working."
 sz "That's weird... You can hang with us for the time being if need be."
-ku "Ufu, Akashi and Yuubari are going to have a field day. Not that they have much to do in terms of combat." 
+ku "Ufu, Akashi and Yuubari are going to have a field day. Not that they have much to do in terms of combat."
 i "..Akashi? Yuubari?"
-ku "they're ladies who specialize in technology and repairs. You will meet them soon enough after you get used to sortieing."
+ku "They're ladies who specialize in technology and repairs. You will meet them soon enough after you get used to sortieing."
 ##Tea scene##
 ku "That reminds me, while we're waiting for the other two girls to return, would you like to join us for tea?"
 "Tea? Isn't that for old people and ceremonies?"
@@ -61,10 +61,10 @@ i "Ah, I didn't mean to come off that way! I just don't know how to do this whol
 ku "Of course not! It's more of a casual tea time that me and the other ladies of the Seventh Cruiser Division have from time to time."
 sz "Most of the time it's just me and Kumarinko though."
 i "And what do you do for this 'tea time'?"
-sz "Ah, we mainly talk about gossip and cute dudes around the base. Like this one dude that I talked about the other day? {i}Total hunk.{/i}" 
+sz "Ah, we mainly talk about gossip and cute dudes around the base. Like this one dude that I talked about the other day? {i}Total hunk.{/i}"
 ##Suzuya is presumably referring to Flat##
 sz "I mean, sure, most of the time he wears that dingy uniform, but when I saw some of Aoba's photos of the staff changing room circling around the other day, I managed to snag a picture of him!"
-sz "ugh, sometimes it makes me wish that the staff wore some swim trunks or something more revealing...there's only so much my male model calendar can d--"
+sz "Ugh, sometimes it makes me wish that the staff wore some swim trunks or something more revealing...there's only so much my male model calendar can d--"
 "Suzuya's ramble about hot guys is suddenly cut off when she notices Kumano's slightly annoyed glare."
 "Suzuya coughs."
 sz "...And snacks. We've got snacks."
@@ -79,12 +79,13 @@ i "Oh, Thanks."
 ku "No problem, dear."
 "I carefully take a sip from the mug. The tea is warm with a creamy smooth texture and a bitter taste, but manages to fill my body with warmth."
 "Kumano looks at me."
+
 ku "So, tell us a little about yourself."
 "Myself? Like my past?"
-i "Ah, well, from what I know, I was first laid down in april 24, 1942 as the successor to the Mogami-class cruisers, until I was ordered to be converted to a Light Aircraft Carrier in 1943 after the disaster at Midway."
-"However, my construction was delayed to make way for submarines up until after the war in 1946--"
+i "Ah, well, from what I know, I was first laid down on April 24, 1942 as the successor to the Mogami-class cruisers, until I was ordered to be converted to a Light Aircraft Carrier in 1943 after the disaster at Midway."
+i "However, my construction was delayed to make way for submarines up until after the war in 1946--"
 sz "Gaah! That's the stuff I can read at the naval library. Geez, what Kumano meant was {i}yourself{/i}. Like your childhood or something."
-i "Childhood?"
+i "Childhood?" #Paralyzed? Dumbstruck?
 ku "Allow me to explain. When someone asks about your upbringing, they are referring to the experiences you had in your early life."
 i "Oh, so that's what it means?"
 ku "Yes, in a sense."
@@ -93,8 +94,8 @@ ku "Yes, in a sense."
 "Suzuya, on the other hand, tends to drink from the teacup in a very casual manner, almost haphazardly. Her arm reaches over to the plate of cookies as the other holds the mug to her lips."
 "Even if they are sister ships, they both seem very different. They don't even look or act remotely similar to each other, yet somehow, they get along."
 "Is this what friends are like?"
-##is it good?##
-"I'm deep in thought, observing the interactions between the two girls when the door starts fidgeting, like someone is unlocking it." 
+
+"I'm deep in thought, observing the interactions between the two girls when the door starts fidgeting, like someone is unlocking it."
 "The door flies open, revealing two other girls. Both are wearing matching uniforms."
 shg "HEEEEeeey!..?"
 shg "Oh, who's this?"#owo
@@ -140,4 +141,34 @@ menu:
 "Suzuya and Kumano go back to their previous conversation as I head over to my new room."
 scene dorm room empty
 "Welp, time to get to business."
+"This new room looks a little quaint.. It's different than my old room."
+"A little smaller, but I think I can get used to this."
+
+scene dorm room furnished
+"After a bit of time, I've set everything up. I like this new look."
+"I leave the room to check out what's going on."
+scene crudiv7room
+"3 of them are in the kitchen, presumably making dinner, but Suzuya's just kicked back watching the TV."
+menu:
+    "I wonder what I should do next."
+    "Help the others prepare dinner.":
+        jump baseline_2
+    "Check out the rest of the base.":
+        "Guess I should check out the rest of the base."
+"I nod to Suzuya on the way out. The others seem to be invested in their work."
+
+scene dorm hallway
+"Stepping outside, the hallway seems to have some traffic, but not as much as I've seen at the other base."
+"But as I leave, I suddenly come to a realization.."
+"..where do I go from here?"
+"My ears perk up as a conversation catches my interest."
+g1 "I heard the weapons guys will be testing out some new weapon down at the shipyards."#Atago
+g2 "I wish I could go see it. I'm assigned to do an exercise with the girls at the harbor."#Ashigara
+"Maybe one of those places would be interesting to check out."
+menu:
+    "Where should I go?"
+    "The shipyards sound interesting.":
+        jump shipyards_1
+    "I wonder what's going on at the harbor.":
+        jump harbor_1
 return
