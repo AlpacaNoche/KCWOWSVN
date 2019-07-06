@@ -1,4 +1,4 @@
-# Character definitions.
+# Character definitions plus some other thingies.
 
 define i = Character("Ibuki")
 define sm = Character("Smol Man") #scoots before introduction to ibuki
@@ -7,7 +7,9 @@ define smk = Character("Sleeping Man") #kosena before introduction to Ibuki
 define sc = Character("Scoots")
 define dm = Character("Daishomaru")
 define bi = Character("Bike")
+define mm = Character("Monkey Looking Guy")#mayo before introduction
 define mb = Character("Maya_Bae")
+define usn = Character("USN Guy") #unknown before introduction, kinda mixed on the label tho
 define un = Character("LT Unknown")
 
 define ks = Character("Kosena")
@@ -22,7 +24,10 @@ define ku = Character("Kumano")
 define sz = Character("Suzuya")
 define mg = Character("Mogami")
 define mk = Character("Mikuma")
+define g1 = Character("Girl 1")#used for Atago in baseline_1
+define g2 = Character("Girl 2")#used for Ashigara in baseline_1
 
+define tm = Character("Tall Man")#used for wororg before introduction
 define wg = Character("Wororg")
 define sa = Character("Saxon")
 define as = Character("Astraph")
@@ -30,6 +35,9 @@ define as = Character("Astraph")
 default scootsPoint = False
 default scPrefix = "Admiral"
 default aobaInvest = False
+default unknownPoints = 0
+default mayoPoint = False
+default woggyYes = False
 
 # The hell begins here.
 
@@ -137,7 +145,7 @@ scene dorm building
 "Suddenly, a gorilla-like roar sounds from inside."
 i "What the hell?"
 "This base is already crazy enough it seems like-- can it get any worse?"
-"I still decide to head inside, hopefully I won't bump into whatever *that* was."
+"I still decide to head inside, hopefully I won't bump into whatever {i}that{/i} was."
 
 scene dorm frontdesk
 "Wait, is there any clerk here like Scoots mentioned?"
