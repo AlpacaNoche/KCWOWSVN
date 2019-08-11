@@ -84,11 +84,13 @@ ku "So, tell us a little about yourself."
 "Myself? Like my past?"
 i "Ah, well, from what I know, I was first laid down on April 24, 1942 as the successor to the Mogami-class cruisers, until I was ordered to be converted to a Light Aircraft Carrier in 1943 after the disaster at Midway."
 i "However, my construction was delayed to make way for submarines up until after the war in 1946--"
-sz "Gaah! That's the stuff I can read at the naval library. Geez, what Kumano meant was {i}yourself{/i}. Like your childhood or something."
-i "Childhood?" #Paralyzed? Dumbstruck?
-ku "Allow me to explain. When someone asks about your upbringing, they are referring to the experiences you had in your early life."
+sz "Gaah! That's the stuff I can read at the naval library. {i}Booooring{/i}. Geez, what Kumano meant was, like, your childhood or something."
+i "Childhood?"
+"I'm slightly confused."
+ku "Allow me to explain."
+ku "When someone asks about your upbringing, they are referring to the memories and experiences you had in your early life."
 i "Oh, so that's what it means?"
-ku "Yes, in a sense."
+ku "It's one way to put it, in a sense."
 "As I explain my life stationed at my previous base, Kumano takes a sip of her tea. There's something almost cordial and proper about the way she holds the cup in her hands."
 "She delicately lifts the cup, closing her eyes to take in the bitter taste of the matcha before gently setting the cup back on the table."
 "Suzuya, on the other hand, tends to drink from the teacup in a very casual manner, almost haphazardly. Her arm reaches over to the plate of cookies as the other holds the mug to her lips."
@@ -137,7 +139,7 @@ menu:
     "Go back to unpacking.":
         i "Ah, I see."
 "Who would've thought that this base still has its arguments?"
-"Doesn't seem too bad from what I've seen."
+"Seems a little more intense than the JMSDF base, I didn't really know girls could get so...ferocious."
 "Suzuya and Kumano go back to their previous conversation as I head over to my new room."
 scene dorm room empty
 "Welp, time to get to business."
@@ -148,7 +150,7 @@ scene dorm room furnished
 "After a bit of time, I've set everything up. I like this new look."
 "I leave the room to check out what's going on."
 scene crudiv7room
-"3 of them are in the kitchen, presumably making dinner, but Suzuya's just kicked back watching the TV."
+"Mikuma and Kumano are in the kitchen, presumably making dinner, while Mogami heads back into her shared room and Suzuya kicks back watching the TV."
 menu:
     "I wonder what I should do next."
     "Help the others prepare dinner.":
@@ -161,7 +163,7 @@ scene dorm hallway
 "Stepping outside, the hallway seems to have some traffic, but not as much as I've seen at the other base."
 "But as I leave, I suddenly come to a realization.."
 "..where do I go from here?"
-"My ears perk up as a conversation catches my interest."
+"My head perks up as a conversation I eavesdrop on while I'm passing by catches my interest."
 g1 "I heard the weapons guys will be testing out some new weapon down at the shipyards."#Atago
 g2 "I wish I could go see it. I'm assigned to do an exercise with the girls at the harbor."#Ashigara
 "Maybe one of those places would be interesting to check out."
